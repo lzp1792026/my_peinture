@@ -5,7 +5,7 @@ import { fetchCloudBlob } from "./storageService";
 import { API_MODEL_MAP } from "../constants";
 import { useAppStore } from "../store/appStore";
 
-const ZIMAGE_BASE_API_URL = "https://luca115-z-image-turbo.hf.space";
+const ZIMAGE_BASE_API_URL = "https://mrfakename-z-image-turbo.hf.space";
 const ZIMAGE_MODEL_BASE_API_URL = "https://mrfakename-z-image.hf.space";
 const QWEN_IMAGE_BASE_API_URL = "https://mcp-tools-qwen-image-fast.hf.space";
 const OVIS_IMAGE_BASE_API_URL = "https://aidc-ai-ovis-image-7b.hf.space";
