@@ -334,7 +334,7 @@ const generateZImage = async (
       const output: any = await runGradioTask(
           ZIMAGE_BASE_API_URL,
           [prompt, height, width, steps, seed, false],
-          1, // fn_index
+          2, // fn_index
           16, // trigger_id
           token
       );
